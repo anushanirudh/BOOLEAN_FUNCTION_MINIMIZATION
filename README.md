@@ -36,52 +36,20 @@ Hardware – PCs, Cyclone II , USB flasher
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
 Developed by:R Anirudh  RegisterNumber: 212223230016
-  module Boolean_min(A,B,C,D,W,X,Y,Z,F1,F2);
   
-  input A,B,C,D,W,X,Y,Z;
-  
-  wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
-  
-  output F1,F2;
-  
-  assign x1=(~A)&(~B)&(~C)&(~D);  
-  
-  assign x2=(A)&(~C)&(~D);
-  
-  assign x3=(~B)&(C)&(~D);
-  
-  assign x4=(~A)&(B)&(C)&(D);
-  
-  assign x5=(B)&(~C)&(D);
-  
-  assign x6=(X)&(~Y)&(Z);
-  
-  assign x7=(~X)&(~Y)&(Z);
-  
-  assign x8=(~W)&(X)&(Y);
-  
-  assign x9=(W)&(~X)&(Y);
-  
-  assign x10=(W)&(X)&(Y);
-  
-  assign F1=x1|x2|x3|x4|x5;
-  
-  assign F2=x6|x7|x8|x9|x10;
-  
-  endmodule 
+  ![Screenshot 2024-05-01 190827](https://github.com/anushanirudh/BOOLEAN_FUNCTION_MINIMIZATION/assets/151725737/d6011a69-a62e-4da1-a1b7-37dab3efd24f)
 
-
+  
 
 
 **RTL realization**
 
-![Screenshot 2024-04-09 133246](https://github.com/anushanirudh/BOOLEAN_FUNCTION_MINIMIZATION/assets/151725737/581a8ff5-a232-45af-bfdd-244c384f851e)
+![Screenshot 2024-05-01 190934](https://github.com/anushanirudh/BOOLEAN_FUNCTION_MINIMIZATION/assets/151725737/c238249f-3bf5-4be2-ba54-ad3772d2be8a)
+
 
 **Truth Table**
 
 ![Screenshot 2024-04-09 133505](https://github.com/anushanirudh/BOOLEAN_FUNCTION_MINIMIZATION/assets/151725737/3aea14b1-3930-4ac9-a8e2-796c994c8710)
-
-![Screenshot 2024-04-09 133554](https://github.com/anushanirudh/BOOLEAN_FUNCTION_MINIMIZATION/assets/151725737/fda34394-46da-4070-a645-26bd9179cf5c)
 
 
 **Output:**
